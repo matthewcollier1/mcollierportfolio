@@ -1,0 +1,38 @@
+.button-box__btn {
+  background-color: $btn-light-grey;
+  color: $body-grey;
+
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px;
+    padding: 0 5px;
+    transition: all 0.3s;
+    animation: fadeIn 3s ease-in;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px $shadow-black;
+    background-color: white;
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px $shadow-black;
+  }
+
+  &--git-repo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  &--git-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}

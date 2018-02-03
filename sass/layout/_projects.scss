@@ -1,0 +1,69 @@
+.card-box {
+  margin: 35px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  position: relative;
+  &__skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0;
+  }
+}
+
+.section-projects__title {
+  font-weight: 300;
+  text-align: center;
+  padding: 3rem;
+}
+
+.section-skills {
+  height: 50vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+
+  h1 {
+    font-weight: 300;
+    position: absolute;
+  }
+}
+
+.skills-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  transform: rotate(45deg);
+  margin: 3rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    transform: rotate(-45deg);
+    position: absolute;
+    color: darkslategrey;
+
+    &--desc {
+      font-weight: 300;
+      position: absolute;
+      top: 100%;
+    }
+  }
+}
+
+.skills {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 6rem;
+}

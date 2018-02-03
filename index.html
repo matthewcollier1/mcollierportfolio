@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Matthew Collier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+    <!-- Start Header Section -->
+    <header class="header">
+        <div class="header__logo-box">
+            <img class="header__logo" src="img/icon.png" alt="branded image">
+        </div>
+
+        <div class="header__text-box">
+            <span class="header__text-box--main">Matthew Collier</span>
+            <span class="header__text-box--sub">Front End Web Developer</span>
+            <div class="button-box">
+                <a href="#bio" class="button-box__btn">Bio</a>
+                <a href="#projects" class="button-box__btn">Projects</a>
+                <a href="#contact-me" class="button-box__btn">Contact Me</a>
+            </div>
+        </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Project Cards Section -->
+
+    <section class="section-projects" id="projects">
+        <h1 class="section-projects__title">Projects</h1>
+        <div class="card-box">
+            <div class="card-container">
+                <div class="flex-container">
+                    <div class="card">
+
+                        <div class="card__side card__side--front">
+                            <h2>Portfolio Project Site</h2>
+                            <img src="img/portfolio.png" alt="">
+                            <p>First portfolio site, responsive design built using CSS grids and Flexbox with JavaScript and
+                                jQuery added functionality.
+                                <br />Hover or click below for more detail.</p>
+                            <a href="#card__side--back" class="button-box__btn">More info</a>
+                        </div>
+                        <div class="card__side card__side--back" id="card__side--back">
+                            <p>The first version of this portfolio site, featuring CSS grid for layout. JavaScript and jQuery
+                                for functionality e.g. a scroll to top button that fades depending on screen position</p>
+                            <h3>Built With:</h3>
+                            <ul>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>Sass</li>
+                            </ul>
+                            <a href="https://github.com/matthewcollier1/portfolio" target="_blank" class="button-box__btn button-box__btn--git-repo">GitHub Repo</a>
+                            <a href="https://matthewcollier1.github.io/portfolio/" target="_blank" class="button-box__btn button-box__btn--git-link">Direct Link</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <h2>Javascript Project</h2>
+                            <img src="img/colourGame.png" alt="">
+                            <p>A colour matching game where you have to guess the rgb colour provided. Built using vanilla JavaScript.
+                                <br />Hover or click below for more detail.</p>
+                            <a href="#card__side--back" class="button-box__btn">More info</a>
+                        </div>
+                        <div class="card__side card__side--back" id="card__side--back ">
+                            <p>A game built with vanilla JavaScript where you must guess the colour listed in the heading with
+                                one of six colours displayed. Featuring easy and hard modes. New colours generated for each
+                                new game.</p>
+
+                            <h3>Built With:</h3>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                            <a href="https://github.com/matthewcollier1/colourgame" target="_blank" class="button-box__btn button-box__btn--git-repo">GitHub Repo</a>
+                            <a href="https://matthewcollier1.github.io/colourgame/" target="_blank" class="button-box__btn button-box__btn--git-link">Direct Link</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <h2>React Project Site</h2>
+                            <img src="img/catch.PNG" alt="">
+                            <p>A tutorial based React site featuring persistent local storage, editable components and responsive
+                                design.
+                                <br />Hover or click below for more detail.</p>
+                            <a href="#card__side--back" class="button-box__btn">More info</a>
+                        </div>
+                        <div class="card__side card__side--back" id="card__side--back ">
+                            <p>A React site about ordering fish. That features a unique url name on each log in. Then persistent
+                                storage through firebase. Built to expand on knowledge of React and JavaScript.</p>
+                            <h3>Built With:</h3>
+                            <ul>
+                                <li>React</li>
+                                <li>JSX</li>
+                                <li>CSS3</li>
+                                <li>HTML5</li>
+                                <li>Firebase</li>
+                            </ul>
+                            <a href="https://github.com/matthewcollier1/fishtest" target="_blank" class="button-box__btn button-box__btn--git-repo">GitHub Repo</a>
+                            <a href="https://matthewcollier1.github.io/fishtest/" target="_blank" class="button-box__btn button-box__btn--git-link">Direct Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Project Cards Section -->
+
+    <!-- Start Skills Section -->
+
+    <section class="section-skills">
+        <h1>Skills</h1>
+        <div class="flex-container flex-container__skills">
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-html5-plain"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">HTML5</h3>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-css3-plain"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">CSS3</h3>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-javascript-plain"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">JavaScript</h3>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-sass-original"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">SASS</h3>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-jquery-plain"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">jQuery</h3>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-github-plain"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">GitHub</h3>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-react-original"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">React</h3>
+            </div>
+            <div class="skills-item">
+                <div class="skills-item__inner">
+                    <i class="devicon-visualstudio-plain"></i>
+                </div>
+                <h3 class="skills-item__inner--desc">VS Code</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Skills Section -->
+
+    <!-- Start About Me Section -->
+
+    <section class="section-about-me--responsive" id="bio">
+        <h1>All about me</h1>
+        <div class="about-me">
+            <div class="about-me__photo">
+                <div class="about-me__photo--img">
+
+                </div>
+            </div>
+            <div class="about-me__text">
+                <h3>A little bit more about me ... since you asked so nicely</h3>
+                <div class="about-me__text--flavour-text">
+                    <p>Hailing from the island of Portsmouth in the UK, now deeply entrenched in the big city of Toronto.
+                        <br /> I've always been obsessed with learning, which naturally led to me coding. Which leads to new challenges
+                        every day as I continue to hone my skills making creative, responsive sites. Always with the hope
+                        of making my little corner of the internet a nicer place.
+                        <br /> When I'm not hacking away at a computer I can be found writing short stories.</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- End About Me Section -->
+
+    <!-- Start Footer -->
+
+    <footer class="footer">
+
+        <!-- Start Email Contact Section -->
+        <section class="section-contact" id="contact-me">
+            <div class="row">
+                <div class="contact">
+                    <span>Shoot me a message!</span>
+                    <div class="contact__form">
+                        <form action="mailto:matthewjcollier@gmail.com" method="post" id="form">
+                            <div class="contact__group">
+                                <input type="text" class="form__input" placeholder="Name" id="name" required>
+                                <label for="name" class="form__label">Name</label>
+                            </div>
+                            <div class="contact__group">
+                                <input type="email" class="form__input" placeholder="E-Mail Address" id="email" required>
+                                <label for="email" class="form__label">E-Mail</label>
+                            </div>
+                            <div class="contact__group">
+                                <textarea type="text" class="form_input" id="msg"></textarea>
+                                <label for="msg" class="form_input">Message</label>
+                            </div>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Email Contact Section -->
+
+        <!-- Start Social Media Section -->
+
+        <div class="social-media-container">
+            <div class="social-media">
+                Or find me here, here and here first
+                <a href="https://github.com/matthewcollier1" target='_blank'>
+                    <div class="social-media__page">
+                        <img src="img/github.svg" alt="" srcset="">
+                        <span>GitHub</span>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/matthewjcollier/" target="_blank">
+                    <div class="social-media__page">
+                        <img src="img/linkedin.svg" alt="" srcset="">
+                        <span>LinkedIn</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/wasthatmatt/" target="_blank">
+                    <div class="social-media__page">
+                        <img src="img/instagram.svg" alt="" srcset="">
+                        <span>Instagram</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- End Social Media Section -->
+
+    </footer>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
