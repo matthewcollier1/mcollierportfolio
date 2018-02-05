@@ -79,8 +79,15 @@
   }
 
   .social-media--responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-right: 20%;
   }
@@ -94,14 +101,20 @@
       ),
       url(../img/background.jpg);
     margin: 0;
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
   .social-media__page {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     &span {
+      -ms-flex-item-align: center;
       align-self: center;
     }
   }
@@ -128,6 +141,7 @@
     width: 17rem;
 
     &__side {
+      -ms-flex-pack: distribute;
       justify-content: space-around;
       height: 21rem;
 
@@ -142,6 +156,9 @@
       display: none;
     }
     &__text {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
       margin-bottom: 1rem;
       padding: 1rem;

@@ -1,12 +1,25 @@
 .header {
-    height: 95vh;
-    background-image: linear-gradient( to right, $gradient-orange, $gradient-purple), url(../img/background.jpg);
-    background-size: cover;
-    background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    &__logo {
-        width: 40px;
-        height: 40px;
-    }
+  height: 95vh;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from($gradient-orange),
+      to($gradient-purple)
+    ),
+    url(../img/background.jpg);
+  background-image: linear-gradient(
+      to right,
+      $gradient-orange,
+      $gradient-purple
+    ),
+    url(../img/background.jpg);
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  &__logo {
+    width: 40px;
+    height: 40px;
+  }
 }
-

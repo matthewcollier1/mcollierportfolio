@@ -3,14 +3,28 @@
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   position: relative;
   &__skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 4rem 0;
   }
@@ -24,9 +38,17 @@
 
 .section-skills {
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
   align-items: stretch;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 
   h1 {
@@ -36,20 +58,35 @@
 }
 
 .skills-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 6rem;
   height: 6rem;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   margin: 3rem;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
 
   &__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-size: 4.5rem;
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     position: absolute;
     color: darkslategrey;
