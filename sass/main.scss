@@ -1,6 +1,6 @@
 @import "abstracts/functions";
 @import "abstracts/mixins";
-@import "abstracts/responsive";
+
 @import "abstracts/variables";
 
 @import "base/base";
@@ -19,3 +19,4 @@
 @import "layout/footer";
 
 @import "pages/home";
+@import "abstracts/responsive";

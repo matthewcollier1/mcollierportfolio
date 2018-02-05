@@ -1,12 +1,24 @@
 @media screen and (max-width: 900px) {
   .section-skills {
-    padding-top: 25rem;
+    padding-top: 15rem;
   }
 
   .section-about-me {
     &--responsive {
       height: 100%;
-      padding-top: 30rem;
+      padding-top: 6rem;
+      margin-top: 20rem;
+    }
+  }
+
+  .footer {
+    margin-top: 1rem;
+  }
+
+  .social-media__text {
+    display: none;
+    &--responsive--test {
+      display: inline-block;
     }
   }
 }
@@ -31,6 +43,111 @@
       font-size: 2rem;
       &--desc {
         font-size: 0.8rem;
+      }
+    }
+
+    .about-me__photo--img {
+      display: none;
+    }
+  }
+
+  .footer {
+    margin-top: 30rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .section-about-me--responsive {
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact {
+    display: none;
+  }
+
+  .section-skills {
+    padding-top: 34rem;
+  }
+
+  .section-about-me--responsive {
+    h1 {
+      padding-bottom: 1rem;
+      padding-top: 6rem;
+    }
+  }
+
+  .social-media--responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20%;
+  }
+
+  .footer {
+    background-image: linear-gradient(
+        105deg,
+        rgba(126, 49, 105, 0.3215686275) 0%,
+        rgba(126, 49, 105, 0.3215686275) 100%,
+        rgba(237, 203, 15, 0.2) 50%
+      ),
+      url(../img/background.jpg);
+    margin: 0;
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    justify-content: center;
+  }
+
+  .social-media__page {
+    display: flex;
+
+    &span {
+      align-self: center;
+    }
+  }
+
+  .skills-item {
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem;
+    &__inner {
+      font-size: 2.5rem;
+      &--desc {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .card-box {
+    margin: 0;
+  }
+
+  .card {
+    height: 22rem;
+    margin-bottom: 14px;
+    width: 17rem;
+
+    &__side {
+      justify-content: space-around;
+      height: 21rem;
+
+      &--front img {
+        height: 27%;
+      }
+    }
+  }
+
+  .about-me {
+    &__photo {
+      display: none;
+    }
+    &__text {
+      flex-direction: column;
+      margin-bottom: 1rem;
+      padding: 1rem;
+
+      h3 {
+        padding-bottom: 2rem;
       }
     }
   }
