@@ -297,10 +297,12 @@ textarea {
 
   .footer {
     margin-top: 30rem; } }
-@media screen and (max-width: 460px) {
+/* @media screen and (max-width: 460px) {
   .section-about-me--responsive {
-    padding-top: 4rem; } }
-@media screen and (max-width: 350px) {
+    padding-top: 4rem;
+  }
+} */
+@media screen and (max-width: 500px) {
   .contact {
     display: none; }
 
