@@ -371,6 +371,10 @@ a {
   .social-media__page img {
     padding: 0 0.5rem 0.5rem 0; }
 
+button {
+  width: 3rem;
+  color: #777; }
+
 .section-projects {
   height: 75vh; }
 
@@ -382,7 +386,7 @@ textarea {
 
 @media screen and (max-width: 900px) {
   .section-skills {
-    padding-top: 15rem; }
+    padding-top: 20rem; }
 
   .section-about-me--responsive {
     height: 100%;
@@ -426,7 +430,10 @@ textarea {
     display: none; }
 
   .section-skills {
-    padding-top: 0rem; }
+    padding-top: 0; }
+
+  .flex-container__skills {
+    height: 24rem; }
 
   .section-about-me--responsive h1 {
     padding-bottom: 1rem;
@@ -487,7 +494,7 @@ textarea {
 
   .section-about-me--responsive {
     margin: 0;
-    padding: 0; }
+    padding-top: 5rem; }
 
   .about-me__photo {
     display: none; }
