@@ -363,8 +363,13 @@ a {
   align-items: center;
   color: white; }
 
-.social-media__text--responsive {
+.social-media__text--responsive--test {
   display: none; }
+
+.social-media__page {
+  display: flex; }
+  .social-media__page img {
+    padding: 0 0.5rem 0.5rem 0; }
 
 .section-projects {
   height: 75vh; }
@@ -392,11 +397,11 @@ textarea {
     .social-media__text--responsive--test {
       display: inline-block; } }
 @media screen and (max-width: 620px) {
-  .section-skills {
-    padding-top: 50rem; }
+  .section-projects {
+    margin-bottom: 42rem; }
 
-  .section-about-me--responsive {
-    padding-top: 55rem; }
+  .section-skills {
+    padding: 0; }
 
   .skills-item--responsive {
     width: 3rem;
@@ -410,7 +415,7 @@ textarea {
       display: none; }
 
   .footer {
-    margin-top: 30rem; } }
+    margin-top: 1rem; } }
 /* @media screen and (max-width: 460px) {
   .section-about-me--responsive {
     padding-top: 4rem;
@@ -421,11 +426,11 @@ textarea {
     display: none; }
 
   .section-skills {
-    padding-top: 34rem; }
+    padding-top: 0rem; }
 
   .section-about-me--responsive h1 {
     padding-bottom: 1rem;
-    padding-top: 6rem; }
+    padding-top: 2rem; }
 
   .social-media--responsive {
     display: -webkit-box;
@@ -479,6 +484,10 @@ textarea {
       height: 21rem; }
       .card__side--front img {
         height: 27%; }
+
+  .section-about-me--responsive {
+    margin: 0;
+    padding: 0; }
 
   .about-me__photo {
     display: none; }

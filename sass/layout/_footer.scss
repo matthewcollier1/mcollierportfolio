@@ -22,7 +22,13 @@
   color: white;
 }
 .social-media__text {
-  &--responsive {
+  &--responsive--test {
     display: none;
+  }
+}
+.social-media__page {
+  display: flex;
+  img {
+    padding: 0 0.5rem 0.5rem 0;
   }
 }

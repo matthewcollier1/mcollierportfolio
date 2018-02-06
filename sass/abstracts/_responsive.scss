@@ -24,14 +24,12 @@
 }
 
 @media screen and (max-width: 620px) {
-  .section-skills {
-    padding-top: 50rem;
+  .section-projects {
+    margin-bottom: 42rem;
   }
 
-  .section-about-me {
-    &--responsive {
-      padding-top: 55rem;
-    }
+  .section-skills {
+    padding: 0;
   }
 
   .skills-item--responsive {
@@ -52,7 +50,7 @@
   }
 
   .footer {
-    margin-top: 30rem;
+    margin-top: 1rem;
   }
 }
 
@@ -68,13 +66,13 @@
   }
 
   .section-skills {
-    padding-top: 34rem;
+    padding-top: 0rem;
   }
 
   .section-about-me--responsive {
     h1 {
       padding-bottom: 1rem;
-      padding-top: 6rem;
+      padding-top: 2rem;
     }
   }
 
@@ -149,6 +147,11 @@
         height: 27%;
       }
     }
+  }
+
+  .section-about-me--responsive {
+    margin: 0;
+    padding: 0;
   }
 
   .about-me {
