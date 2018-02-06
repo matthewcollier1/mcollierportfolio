@@ -432,6 +432,10 @@ textarea {
   .section-skills {
     padding-top: 0; }
 
+  .section-projects {
+    height: auto;
+    margin: 0; }
+
   .flex-container__skills {
     height: 24rem; }
 
