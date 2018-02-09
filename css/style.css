@@ -251,7 +251,7 @@ a {
   padding: 3rem; }
 
 .section-skills {
-  height: 50vh;
+  height: 30rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,7 +347,7 @@ a {
       width: 20rem; }
 
 .footer {
-  height: 40vh;
+  height: 22rem;
   background-image: linear-gradient(105deg, rgba(126, 49, 105, 0.3215686275) 0%, rgba(126, 49, 105, 0.3215686275) 50%, rgba(237, 203, 15, 0.2) 50%), url(../img/background.jpg);
   background-size: cover;
   background-position: center;
@@ -376,7 +376,7 @@ button {
   color: #777; }
 
 .section-projects {
-  height: 75vh; }
+  height: 40rem; }
 
 .section-book {
   padding: 15rem 0; }
@@ -389,7 +389,7 @@ textarea {
     padding-top: 20rem; }
 
   .section-about-me--responsive {
-    height: 100%;
+    height: 48rem;
     padding-top: 6rem;
     margin-top: 20rem; }
 
