@@ -251,7 +251,7 @@ a {
   padding: 3rem; }
 
 .section-skills {
-  height: 30rem;
+  height: 36rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -311,7 +311,7 @@ a {
   margin-top: 6rem; }
 
 .section-about-me--responsive {
-  height: 60vh; }
+  height: 35rem; }
   .section-about-me--responsive h1 {
     text-align: center;
     font-weight: 300;
