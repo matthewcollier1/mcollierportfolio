@@ -1,106 +1,106 @@
 .card-box {
-  margin: 35px;
+	margin: 35px;
 }
 
 .flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  position: relative;
-  &__skills {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin: 4rem 0;
-  }
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	position: relative;
+	&__skills {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: row wrap;
+		flex-flow: row wrap;
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		margin: 4rem 0;
+	}
 }
 
 .section-projects__title {
-  font-weight: 300;
-  text-align: center;
-  padding: 3rem;
+	font-weight: 300;
+	text-align: center;
+	padding: 3rem;
 }
 
 .section-skills {
-  height: 36rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
 
-  h1 {
-    font-weight: 300;
-    position: absolute;
-  }
+	h1 {
+		font-weight: 300;
+		position: absolute;
+	}
 }
 
 .skills-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 6rem;
-  height: 6rem;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  margin: 3rem;
-  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 6rem;
+	height: 6rem;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	margin: 3rem;
+	-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.36);
 
-  &__inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 4.5rem;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    position: absolute;
-    color: darkslategrey;
+	&__inner {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		font-size: 4.5rem;
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		position: absolute;
+		color: darkslategrey;
 
-    &--desc {
-      font-weight: 300;
-      position: absolute;
-      top: 100%;
-    }
-  }
+		&--desc {
+			font-weight: 300;
+			position: absolute;
+			top: 100%;
+		}
+	}
 }
 
 .skills {
-  text-align: center;
-  font-weight: 300;
-  margin-top: 6rem;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 6rem;
 }

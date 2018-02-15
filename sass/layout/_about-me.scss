@@ -1,46 +1,46 @@
 .section-about-me--responsive {
-  height: 35rem;
-  h1 {
-    text-align: center;
-    font-weight: 300;
-    padding-bottom: 3rem;
-  }
+	height: auto;
+	h1 {
+		text-align: center;
+		font-weight: 300;
+		padding-bottom: 3rem;
+	}
 }
 
 .about-me {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 
-  &__photo {
-    width: 26rem;
+	&__photo {
+		width: 26rem;
 
-    &--img {
-      background-image: url("../img/aboutme.jpg");
-      background-position: 50% 64%;
-      height: 100%;
-      width: 100%;
-    }
-  }
-  &__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+		&--img {
+			background-image: url('../img/aboutme.jpg');
+			background-position: 50% 64%;
+			height: 100%;
+			width: 100%;
+		}
+	}
+	&__text {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: space-evenly;
+		-ms-flex-pack: space-evenly;
+		justify-content: space-evenly;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
 
-    h3 {
-      width: 30%;
-    }
-    &--flavour-text {
-      width: 20rem;
-    }
-  }
+		h3 {
+			width: 30%;
+		}
+		&--flavour-text {
+			width: 20rem;
+		}
+	}
 }
