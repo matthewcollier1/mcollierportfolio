@@ -1,5 +1,6 @@
 .section-about-me--responsive {
 	height: auto;
+	margin-bottom: 4rem;
 	h1 {
 		text-align: center;
 		font-weight: 300;
@@ -14,10 +15,8 @@
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-
 	&__photo {
 		width: 26rem;
-
 		&--img {
 			background-image: url('../img/aboutme.jpg');
 			background-position: 50% 64%;
@@ -35,7 +34,6 @@
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-
 		h3 {
 			width: 30%;
 		}

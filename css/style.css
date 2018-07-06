@@ -311,7 +311,8 @@ a {
   margin-top: 6rem; }
 
 .section-about-me--responsive {
-  height: auto; }
+  height: auto;
+  margin-bottom: 4rem; }
   .section-about-me--responsive h1 {
     text-align: center;
     font-weight: 300;
@@ -374,6 +375,26 @@ a {
 button {
   width: 3rem;
   color: #777; }
+
+.section-freelance {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 4rem; }
+  .section-freelance h1 {
+    font-weight: 300;
+    margin-bottom: 2rem; }
 
 .section-projects {
   height: auto; }
